@@ -116,6 +116,7 @@ namespace DeathCounter
                 return;
             }
 
+            // Thanks to this reference https://github.com/royitaqi/HollowKnight.GodhomeWinLossTracker/blob/main/GodhomeWinLossTracker/MessageBus/Handlers/TKDeathAndStatusObserver.cs
             // Hook TK death event
             hero.transform.Find("Hero Death")
                 .gameObject
